@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hello-fem';
+  title = 'Angular 13 Fundamentals';
+  links = [
+    { path: '/home', icon: 'home', title: 'Home' },
+    { path: '/courses', icon: 'view_list', title: 'Courses' },
+  ];
 }
